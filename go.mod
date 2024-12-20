@@ -19,6 +19,7 @@ require (
 	github.com/spf13/cobra v1.8.1
 	github.com/stretchr/testify v1.10.0
 	go.opentelemetry.io/collector/component v0.115.0
+	go.opentelemetry.io/collector/confmap v1.21.0
 	go.opentelemetry.io/collector/otelcol v0.115.0
 	go.opentelemetry.io/collector/receiver/otlpreceiver v0.115.0
 	go.opentelemetry.io/otel/exporters/jaeger v1.17.0
@@ -30,6 +31,7 @@ require (
 	golang.org/x/sys v0.28.0
 	google.golang.org/grpc v1.68.1
 	gopkg.in/yaml.v3 v3.0.1
+	gotest.tools/v3 v3.0.3
 	istio.io/api v1.24.1
 	istio.io/client-go v1.24.1
 	k8s.io/api v0.31.4
@@ -128,7 +130,6 @@ require (
 	go.opentelemetry.io/collector/config/configtelemetry v0.115.0 // indirect
 	go.opentelemetry.io/collector/config/configtls v1.21.0 // indirect
 	go.opentelemetry.io/collector/config/internal v0.115.0 // indirect
-	go.opentelemetry.io/collector/confmap v1.21.0 // indirect
 	go.opentelemetry.io/collector/connector v0.115.0 // indirect
 	go.opentelemetry.io/collector/connector/connectorprofiles v0.115.0 // indirect
 	go.opentelemetry.io/collector/connector/connectortest v0.115.0 // indirect
